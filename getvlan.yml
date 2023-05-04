@@ -8,7 +8,7 @@
     - name: Execute show version on the switch and register
       aoscx_command:
         commands: ['show version']
-      register: show_vlan_output
+      register: show_version_output
 
     - name: Output registered variable
       debug:
